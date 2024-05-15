@@ -19,6 +19,7 @@
 - Supported Format Group/Channel username/id/link
 - Scrape Any Specific Bin Credit Cards
 - Removes duplicate Credit Cards.
+- Scraping Speed Super Fester.
 
 ## Requirements
 
