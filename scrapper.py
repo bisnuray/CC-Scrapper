@@ -14,14 +14,14 @@ from aiogram import Bot, Dispatcher, types, executor
 from pyrogram import Client
 
 # Aiogram setup
-BOT_TOKEN = "12345678:ABCDEFGHIJKLMNOPQRST"   # Replace this BOT_TOKEN
+BOT_TOKEN = "7473446995:AAFJ9spSqYEVVpfhUvomu6IsGDSvfVl4L_Y"   # Replace this BOT_TOKEN
 bot = Bot(token=BOT_TOKEN)
 dp = Dispatcher(bot)
 
 # Pyrogram setup
-api_id = "12345678"   # Replace this API ID with your actual API ID
-api_hash = "1234567890abcdefghijk"  # Replace this API ID with your actual API HASH
-phone_number = "+1901234567"    # Replace this API ID with your phone number
+api_id = "20001797"   # Replace this API ID with your actual API ID
+api_hash = "d4d5222ce777be21920733e13fe4e1b3"  # Replace this API ID with your actual API HASH
+phone_number = "+56952367261"    # Replace this API ID with your phone number
 
 user_client = Client("my_account", api_id=api_id, api_hash=api_hash, phone_number=phone_number)
 
