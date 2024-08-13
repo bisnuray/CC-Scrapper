@@ -55,18 +55,26 @@ python3 scrapper.py
 ```
 
 ## Usage
+1.Use the `/camds` 
+    ```text
+    /camds /scr 
+    ```
+    
 
-1. Use the `/scr` command followed by the group or channel username and the number of messages to scrape.
 
+2. Use the `/scr` command followed by the group or channel username and the number of messages to scrape.
+    
+ 
     ```text
     /scr @channel_username 1000
     ```
 
-2. Optionally, you can scrape any target bin cards
+3. Optionally, you can scrape any target bin cards
 
     ```text
     /scr @channel_username 1000 434769
     ```
+    
 
 ✨ **Note**: Fork this repo, & Star ☀️ the repo if you liked it. and Share this repo with Proper Credit
 
