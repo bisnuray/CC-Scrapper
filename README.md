@@ -57,7 +57,7 @@ python3 scrapper.py
 ## Usage
 1.Use the `/camds` 
     ```text
-    /camds /scr 
+    /camds 
     ```
     
 
