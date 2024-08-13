@@ -1,7 +1,7 @@
 """
-Author: Bisnu Ray
-User : https://t.me/SmartBisnuBio
-Channel: https://t.me/itsSmartDev
+Author: Bunny
+User : https://t.me/approvedccm
+Channel: https://t.me/approvedccm
 
 """
 
@@ -14,21 +14,21 @@ from aiogram import Bot, Dispatcher, types, executor
 from pyrogram import Client
 
 # Aiogram setup
-BOT_TOKEN = "12345678:ABCDEFGHIJKLMNOPQRST"   # Replace this BOT_TOKEN
+BOT_TOKEN = "7153680062:AAHU5w3Nh6xAFe7Giodt5OwX1APnAuyCDvc"   # Replace this BOT_TOKEN
 bot = Bot(token=BOT_TOKEN)
 dp = Dispatcher(bot)
 
 # Pyrogram setup
-api_id = "12345678"   # Replace this API ID with your actual API ID
-api_hash = "1234567890abcdefghijk"  # Replace this API ID with your actual API HASH
-phone_number = "+1901234567"    # Replace this API ID with your phone number
+api_id = "23925218"   # Replace this API ID with your actual API ID
+api_hash = "396fd3b1c29a427df8cc6fb54f3d307c"  # Replace this API ID with your actual API HASH
+phone_number = "+917011352327"    # Replace this API ID with your phone number
 
 user_client = Client("my_account", api_id=api_id, api_hash=api_hash, phone_number=phone_number)
 
 scrape_queue = asyncio.Queue()
 
 # Define admin user IDs
-admin_ids = [12345678, 12345678]
+admin_ids = [5387926427,6922106594,7192604798,6572284023]
 
 default_limit = 10000  # Max limit for any user
 admin_limit = 50000    # Max limit for admin users
@@ -93,7 +93,7 @@ async def process_scrape_queue(user_client, bot):
                         f"<b>Amount:</b> <code>{len(unique_messages)}</code>\n"
                         f"<b>Duplicates Removed:</b> <code>{duplicates_removed}</code>\n"
                         f"<b>━━━━━━━━━━━━━━━━</b>\n"
-                        f"<b>Card-Scrapper By: <a href='https://t.me/itsSmartDev'>Smart Dev</a></b>\n"
+                        f"<b>Card-Scrapper By: <a href='https://t.me/approvedccm'>𝙱𝚞𝚗𝚗𝚢</a></b>\n"
                     )
                     await temporary_msg.delete()
                     await bot.send_document(message.chat.id, f, caption=caption, parse_mode='html')
