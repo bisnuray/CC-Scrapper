@@ -104,4 +104,4 @@ async def scr_cmd(client, message):
 
 if __name__ == "__main__":
     user.start()
-    bot.run()
+    bot.run() 
